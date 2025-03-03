@@ -4,4 +4,3 @@
 
 <img src = "README/LorentzNN.png">
 
-<img src = >
