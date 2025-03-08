@@ -9,6 +9,10 @@
 <img src = "README/LorentzNN.png">
 
 
+<img src = "README/ensemble-model-diagram.png">
+
+<p align = "justify">Model architecture and overall flow for the model.</p>
+
 
 References
 
