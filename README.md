@@ -1,6 +1,6 @@
 <h1 align = "center">FINORA</h1>
 <h2 align = "center">Smarter Lending, Faster Approvals</h2>
-<p align = "justify">LEND accelerates loan approvals with precision by leveraging Lorentzian Neural Networks to optimize risk assessment and decision making.
+<p align = "justify">FINORA accelerates loan approvals with precision by leveraging Lorentzian Neural Networks to optimize risk assessment and decision making.
 
 <p align="center">
   <b>General Approval Guidelines (TL;DR)</b>
