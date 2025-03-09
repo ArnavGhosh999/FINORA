@@ -1,5 +1,5 @@
-<h1 align = "center">LEND</h1>
-<h2 align = "center">Loan Eligibility & Navigation Decisioning </h2>
+<h1 align = "center">FINORA</h1>
+<h2 align = "center">Smarter Lending, Faster Approvals</h2>
 <p align = "justify">LEND accelerates loan approvals with precision by leveraging Lorentzian Neural Networks to optimize risk assessment and decision making.
 
 <p align="center">
@@ -94,6 +94,8 @@
     <td align="center">Very low chance of approval without collateral</td>
   </tr>
 </table>
+
+<p><strong>Note:</strong> These guidelines are for project purposes only and do not reflect real-world lending policies.</p>
 
 </p>
 
