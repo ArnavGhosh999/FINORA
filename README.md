@@ -1,104 +1,20 @@
 <h1 align = "center">FINORA</h1>
 <h2 align = "center">Smarter Lending, Faster Approvals</h2>
-<p align = "justify">FINORA accelerates loan approvals with precision by leveraging Lorentzian Neural Networks to optimize risk assessment and decision making.
+<p align = "justify">FINORA accelerates loan approvals with precision by leveraging Mistral LLM + Random Forest Classifier to optimize risk assessment and decision making.</p>
+<p align = "justify">Trained on a set of 300 custom and predefined queries and a dataset of 45k data containing parameters like Credit Amount, Credit Loan History, previous defaults, CIBIL SCORE etc, we used an Agentic A.I approach for smarter and faster Loan and Insurance approval.
+  
+  - Loan Agent : Manages the approval or rejection of loan with a strict set of rules for minimum CIBIL score, age and every type of authentication.
+  - Insurance Agent : Manages Insurance claims - checking the severity, cause, intention for claim, documents required for further verification.
+  - Orchestrator Agent : Manages and switches between the Loan and Insurance Agent.
 
-<p align="center">
-  <b>General Approval Guidelines (TL;DR)</b>
-</p>
+USP OF OUR MODEL:
+1. Faster loan approval with an accuracy of 93%.
+2. Claims can be made using simpler prompts, as well as well explained details of the need of documents as well as highlighting the keywords while making the claim.
+3. Interest rate offered is in the middle ground so that neither the bank not customer suffer's. (Taken on parameters based on the employment duration, credit score, loan amount and current salary.
 
-<table align="center">
-  <tr>
-    <th>Factor</th>
-    <th>Ideal Range for Approval</th>
-    <th>High-Risk / Rejection Threshold</th>
-  </tr>
-  <tr>
-    <td align="center"><b>Age</b></td>
-    <td align="center">21 – 65 years</td>
-    <td align="center">Below 18 or above 65 (without proof of income)</td>
-  </tr>
-  <tr>
-    <td align="center"><b>Annual Income ($)</b></td>
-    <td align="center">At least 3-5× EMI</td>
-    <td align="center">Low income with high DTI (&gt;50%)</td>
-  </tr>
-  <tr>
-    <td align="center"><b>Education Level</b></td>
-    <td align="center">Bachelor's or higher</td>
-    <td align="center">High school or lower (for large loans)</td>
-  </tr>
-  <tr>
-    <td align="center"><b>Home Ownership</b></td>
-    <td align="center">Owns or has a mortgage</td>
-    <td align="center">Renting (unless strong financials)</td>
-  </tr>
-  <tr>
-    <td align="center"><b>DTI Ratio (%)</b></td>
-    <td align="center">Below 40% (max 50%)</td>
-    <td align="center">Above 50% (almost always rejected)</td>
-  </tr>
-  <tr>
-    <td align="center"><b>Interest Rate (%)</b></td>
-    <td align="center">6% - 15%</td>
-    <td align="center">Above 25% = high risk</td>
-  </tr>
-  <tr>
-    <td align="center"><b>Loan Intent</b></td>
-    <td align="center">Home, education, debt consolidation</td>
-    <td align="center">Personal (large amounts), business loans (without collateral)</td>
-  </tr>
-  <tr>
-    <td align="center"><b>Previous Defaults</b></td>
-    <td align="center">None or 1 minor (paid off)</td>
-    <td align="center">1+ unpaid default = almost always rejected</td>
-  </tr>
-</table>
+Work pending : Creating a vector database.
 
-
-- Loan approval takes around 3-4 days from acceptance to approval, we are aiming to provide that in just a couple of hours (and will work it through for making it to minutes), without tampering with the accuracy.
-- Our model provides a hybrid structure integrating Lorentzian Neural Networks along with Ensemble Methods for accuracy boost to ensure that the loan approval is handled with the atmost care.
-
-<p align="center">
-  <b>Credit Score Categories & Loan Approval Chances</b>
-</p>
-
-<table align="center">
-  <tr>
-    <th>Credit Score</th>
-    <th>Category</th>
-    <th>Loan Approval Chances</th>
-  </tr>
-  <tr>
-    <td align="center"><b>800 - 850</b></td>
-    <td align="center">Exceptional</td>
-    <td align="center">Almost guaranteed approval with best interest rates</td>
-  </tr>
-  <tr>
-    <td align="center"><b>740 - 799</b></td>
-    <td align="center">Very Good</td>
-    <td align="center">Very high approval rate, low-interest rates</td>
-  </tr>
-  <tr>
-    <td align="center"><b>670 - 739</b></td>
-    <td align="center">Good</td>
-    <td align="center">Standard approval, decent rates</td>
-  </tr>
-  <tr>
-    <td align="center"><b>580 - 669</b></td>
-    <td align="center">Fair</td>
-    <td align="center">High interest rates, may need a co-signer/collateral</td>
-  </tr>
-  <tr>
-    <td align="center"><b>Below 580</b></td>
-    <td align="center">Poor</td>
-    <td align="center">Very low chance of approval without collateral</td>
-  </tr>
-</table>
-
-<p><strong>Note:</strong> These guidelines are for project purposes only and do not reflect real-world lending policies.</p>
-
-
-
+<p align="center"><img src = 'README/Mermaid_AI.png'></p>
 References
 
 ```
