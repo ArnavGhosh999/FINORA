@@ -97,16 +97,6 @@
 
 <p><strong>Note:</strong> These guidelines are for project purposes only and do not reflect real-world lending policies.</p>
 
-</p>
-
-<img src = "README/LorentzNN.png">
-
-
-<img src = "README/ensemble-model-diagram.png">
-
-<p align = "justify">Model architecture and overall flow for the model.</p>
-
-
 
 
 References
